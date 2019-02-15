@@ -3,16 +3,17 @@
 @import "header.scss";
 @import "nav.scss";
 $font:verdana;
-
+$colBlue:#0095a6;
+$colP1:#444;
 .blue{
-	background: #0095a6;
+	background: $colBlue;
 	height: 25em;
 	position: relative;
 	font-family: $font;
 }
 .circle-up{
 	position:absolute;
-	right:13em;
+	right:9em;
 	top:0;
 	background: url('../img/back-image-2.png');
 	width: 207px;
@@ -20,7 +21,7 @@ $font:verdana;
 }
 .circle-down{
 	position:absolute;
-	left:10em;
+	left:7em;
 	bottom:0;
 	background: url('../img/back-image-1.png');
 	width: 226px;
@@ -39,3 +40,29 @@ $font:verdana;
 		line-height: 1.5em;
 	}
 }
+.stress-title{
+	grid-column: 4/10;
+	h2{
+		font-family: $font;
+		font-weight: 100;
+		font-size: 1.8em;
+		color:$colBlue;
+		margin: 2.5em 0 1.5em 0;
+	}
+	// grid-row:1/2;
+}
+.stress-img-left{
+	font-family: $font;
+	grid-column: 1/6;
+}
+.stress-text-right{
+	font-family: $font;
+	grid-column: 6/12;
+	p{
+		font-size: 1.2em;
+		color:$colP1;
+		margin: 0.75em 1em;
+		line-height: 1.6em;
+	}
+}
+

@@ -5,7 +5,7 @@
 .block-grid-3-23{
 	grid-column: 3/23;
 }
-.flex-center-wrap{
+.flex-hcenter-wrap{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -14,5 +14,11 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+.flex-hcenter-vcenter-wrap{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
 }
 

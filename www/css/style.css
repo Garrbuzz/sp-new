@@ -308,7 +308,7 @@ template {
 .block-grid-3-23 {
   grid-column: 3/23; }
 
-.flex-center-wrap {
+.flex-hcenter-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -327,9 +327,46 @@ template {
   -ms-flex-pack: distribute;
   justify-content: space-around; }
 
+.flex-hcenter-vcenter-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
 .logo {
   grid-column: 1/5;
   margin: 1em; }
+
+.nav-wrap {
+  grid-column: 5/13; }
+  .nav-wrap ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .nav-wrap ul li {
+      height: 2.5em;
+      border-left: 1px solid #eaeaea; }
+      .nav-wrap ul li a {
+        font-family: verdana;
+        color: #fd9017;
+        padding: 0.7em 1.2em;
+        text-decoration: none;
+        display: block;
+        -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out, background 0.2s ease-in-out; }
+      .nav-wrap ul li a:hover {
+        color: #0095a6;
+        background: #eee; }
+    .nav-wrap ul li:first-child {
+      border-left: none; }
 
 .blue {
   background: #0095a6;
@@ -339,7 +376,7 @@ template {
 
 .circle-up {
   position: absolute;
-  right: 13em;
+  right: 9em;
   top: 0;
   background: url("../img/back-image-2.png");
   width: 207px;
@@ -347,7 +384,7 @@ template {
 
 .circle-down {
   position: absolute;
-  left: 10em;
+  left: 7em;
   bottom: 0;
   background: url("../img/back-image-1.png");
   width: 226px;
@@ -364,3 +401,25 @@ template {
     font-weight: 100;
     font-size: 2.3em;
     line-height: 1.5em; }
+
+.stress-title {
+  grid-column: 4/10; }
+  .stress-title h2 {
+    font-family: verdana;
+    font-weight: 100;
+    font-size: 1.8em;
+    color: #0095a6;
+    margin: 2.5em 0 1.5em 0; }
+
+.stress-img-left {
+  font-family: verdana;
+  grid-column: 1/6; }
+
+.stress-text-right {
+  font-family: verdana;
+  grid-column: 6/12; }
+  .stress-text-right p {
+    font-size: 1.2em;
+    color: #444;
+    margin: 0.75em 1em;
+    line-height: 1.6em; }
