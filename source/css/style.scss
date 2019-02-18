@@ -5,11 +5,13 @@
 $font:verdana;
 $colBlue:#0095a6;
 $colP1:#444;
+
 .blue{
 	background: $colBlue;
 	height: 25em;
 	position: relative;
 	font-family: $font;
+	position:relative;
 }
 .circle-up{
 	position:absolute;
@@ -40,6 +42,7 @@ $colP1:#444;
 		line-height: 1.5em;
 	}
 }
+// prof-burn
 .stress-title{
 	grid-column: 4/10;
 	h2{
@@ -49,7 +52,6 @@ $colP1:#444;
 		color:$colBlue;
 		margin: 2.5em 0 1.5em 0;
 	}
-	// grid-row:1/2;
 }
 .stress-img-left{
 	font-family: $font;
@@ -65,4 +67,66 @@ $colP1:#444;
 		line-height: 1.6em;
 	}
 }
+.inwork{
+	height: 30em;
+}
 
+.cabinet{
+	position:absolute;
+	z-index: 3;
+	top:1.5em;
+	left:1.5em;
+	padding:0 1em;
+	border-radius: 1.7em;
+	color:#eee;
+	border: 1px solid #eaeaea;
+	background: rgba(220, 220, 230, 0.5);
+	p{
+		margin:.4em;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+		transition: color 0.2s linear, background 0.2s linear;
+
+	}
+	a:hover{
+		color:#fd9017;
+	};
+
+}
+.cabinet:hover{
+	
+	background: rgba(255,255,255,0.75);
+	cursor:pointer;
+};
+//end prof-burn
+
+// login
+.login{
+	margin: 8em 0;
+	grid-column: 4/10;
+	font-family: $font;
+	fieldset{
+		padding: 5em;
+		color:$colBlue;
+		border: 1px solid $colBlue;
+	}
+	input{
+		border: 1px solid #ddd;
+		border-radius: 3px;
+		padding:0.5em;
+		width: 25em;
+
+	}
+::-webkit-input-placeholder {color:#ddd;}
+::-moz-placeholder          {color:#ddd;}
+:-moz-placeholder           {color:#ddd;}
+:-ms-input-placeholder      {color:#ddd;}
+	
+}
+.buttons{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

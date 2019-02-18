@@ -360,9 +360,9 @@ template {
         padding: 0.7em 1.2em;
         text-decoration: none;
         display: block;
-        -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
-        transition: color 0.2s ease-in-out, background 0.2s ease-in-out; }
-      .nav-wrap ul li a:hover {
+        -webkit-transition: color .2s ease-in-out, background .2s ease-in-out;
+        transition: color .2s ease-in-out, background .2s ease-in-out; }
+      .nav-wrap ul li a:hover, .nav-wrap ul li .current {
         color: #0095a6;
         background: #eee; }
     .nav-wrap ul li:first-child {
@@ -372,7 +372,8 @@ template {
   background: #0095a6;
   height: 25em;
   position: relative;
-  font-family: verdana; }
+  font-family: verdana;
+  position: relative; }
 
 .circle-up {
   position: absolute;
@@ -423,3 +424,64 @@ template {
     color: #444;
     margin: 0.75em 1em;
     line-height: 1.6em; }
+
+.inwork {
+  height: 30em; }
+
+.cabinet {
+  position: absolute;
+  z-index: 3;
+  top: 1.5em;
+  left: 1.5em;
+  padding: 0 1em;
+  border-radius: 1.7em;
+  color: #eee;
+  border: 1px solid #eaeaea;
+  background: rgba(220, 220, 230, 0.5); }
+  .cabinet p {
+    margin: .4em; }
+  .cabinet a {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color 0.2s linear, background 0.2s linear;
+    transition: color 0.2s linear, background 0.2s linear; }
+  .cabinet a:hover {
+    color: #fd9017; }
+
+.cabinet:hover {
+  background: rgba(255, 255, 255, 0.75);
+  cursor: pointer; }
+
+.login {
+  margin: 8em 0;
+  grid-column: 4/10;
+  font-family: verdana; }
+  .login fieldset {
+    padding: 5em;
+    color: #0095a6;
+    border: 1px solid #0095a6; }
+  .login input {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 0.5em;
+    width: 25em; }
+  .login ::-webkit-input-placeholder {
+    color: #ddd; }
+  .login ::-moz-placeholder {
+    color: #ddd; }
+  .login :-moz-placeholder {
+    color: #ddd; }
+  .login :-ms-input-placeholder {
+    color: #ddd; }
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
