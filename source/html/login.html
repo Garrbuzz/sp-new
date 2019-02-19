@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<meta charset="UTF-8">
 	<title>Document</title>
 
@@ -26,19 +27,20 @@
 		<div>
 			<fieldset>	
 				<legend>Введите ваши учетные данные</legend>
-				<p><label>Адрес электронной почты:</p></label><input  type="text" placeholder="example@example.com">
-				<p><label>Пароль:</label></p><input type="password" placeholder="пароль">
+				<p>Адрес электронной почты:</p><input  id="#login" type="text" placeholder="example@example.com">
+				<p>Пароль:</p><input id="#pass" type="password" placeholder="пароль">
 			</fieldset>
 			
 		</div>
 		<div class="buttons">
-			<div><button>Войти</button></div>
-			<div><button>Зарегистрироваться</button></div>
+			<div><button type="button" class="btn btn-success btn-login">Войти</button></div>
+			<div><button type="button" class="btn btn-light btn-register">Зарегистрироваться</button></div>
 		</div>
 		
 	</div>
 </section>
 <body>
 	
+	<script src = "./js/login.js"></script>
 </body>
 </html>

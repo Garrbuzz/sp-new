@@ -104,11 +104,11 @@ $colP1:#444;
 
 // login
 .login{
-	margin: 8em 0;
+	margin: 1em 0;
 	grid-column: 4/10;
 	font-family: $font;
 	fieldset{
-		padding: 5em;
+		padding: 1em 5em 3em;
 		color:$colBlue;
 		border: 1px solid $colBlue;
 	}
@@ -117,7 +117,9 @@ $colP1:#444;
 		border-radius: 3px;
 		padding:0.5em;
 		width: 25em;
-
+	}
+	p{
+		margin:2em 0 0.5em 0;
 	}
 ::-webkit-input-placeholder {color:#ddd;}
 ::-moz-placeholder          {color:#ddd;}
@@ -126,7 +128,15 @@ $colP1:#444;
 	
 }
 .buttons{
+	margin:1.5em 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.btn-login{
+	margin:0.5em 0
+}
+.btn-register{
+	color:red;
 }

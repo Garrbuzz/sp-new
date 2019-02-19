@@ -453,11 +453,11 @@ template {
   cursor: pointer; }
 
 .login {
-  margin: 8em 0;
+  margin: 1em 0;
   grid-column: 4/10;
   font-family: verdana; }
   .login fieldset {
-    padding: 5em;
+    padding: 1em 5em 3em;
     color: #0095a6;
     border: 1px solid #0095a6; }
   .login input {
@@ -465,6 +465,8 @@ template {
     border-radius: 3px;
     padding: 0.5em;
     width: 25em; }
+  .login p {
+    margin: 2em 0 0.5em 0; }
   .login ::-webkit-input-placeholder {
     color: #ddd; }
   .login ::-moz-placeholder {
@@ -475,6 +477,7 @@ template {
     color: #ddd; }
 
 .buttons {
+  margin: 1.5em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -485,3 +488,9 @@ template {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+
+.btn-login {
+  margin: 0.5em 0; }
+
+.btn-register {
+  color: red; }
