@@ -368,6 +368,9 @@ template {
     .nav-wrap ul li:first-child {
       border-left: none; }
 
+* {
+  outline: none; }
+
 .blue {
   background: #0095a6;
   height: 25em;
@@ -490,7 +493,7 @@ template {
   align-items: center; }
 
 .btn-login {
-  margin: 0.5em 0; }
+  margin: 1em 0; }
 
-.btn-register {
+.wrong-login {
   color: red; }

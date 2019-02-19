@@ -16,15 +16,13 @@ if($pdo->errorCode() != 0000){
 $res = $sql->fetch();
 if ($res) {
 	if (md5($pass) === $res['password']){
+		session_start();
+		$_SESSION['user'] = $login;
 		$loginRes = true;
 	} else{
 		$loginRes = false;
 	}
 }
-
-
- 
-
 $result=json_encode($loginRes);
 echo $result;
 ?>

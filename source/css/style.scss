@@ -5,7 +5,11 @@
 $font:verdana;
 $colBlue:#0095a6;
 $colP1:#444;
+*{
 
+ outline:none;
+
+}
 .blue{
 	background: $colBlue;
 	height: 25em;
@@ -135,8 +139,9 @@ $colP1:#444;
 }
 
 .btn-login{
-	margin:0.5em 0
+	margin:1em 0
 }
-.btn-register{
+
+.wrong-login{
 	color:red;
 }
