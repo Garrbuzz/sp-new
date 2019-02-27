@@ -11,7 +11,7 @@ $error_array = $pdo->errorInfo();
 
 if($pdo->errorCode() != 0000){
  
-	echo "SQL ошибка: " . $error_array[2] . '<br />';
+	echo "SQL ошибка: " . $error_array[2] . '<br/>';
 }
 $res = $sql->fetch();
 if ($res) {
