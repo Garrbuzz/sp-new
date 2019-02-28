@@ -462,7 +462,8 @@ template {
   .login fieldset {
     padding: 1em 5em 3em;
     color: #0095a6;
-    border: 1px solid #0095a6; }
+    border: 1px solid #0095a6;
+    text-align: center; }
   .login input {
     border: 1px solid #ddd;
     border-radius: 3px;
