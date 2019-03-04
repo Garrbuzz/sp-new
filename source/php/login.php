@@ -1,6 +1,8 @@
 <?php
 include 'functions.php';
 $type = $_POST['type'];
+$result=json_encode($type);
+	echo $result;
 if ($type == 'login'){
 	$login = $_POST['name'];
 	$pass =  $_POST['pass'];
@@ -26,9 +28,10 @@ if ($type == 'login'){
 			$loginRes = false;
 		}
 	}
-	$result=json_encode($loginRes);
-	echo $result;
+	// $result=json_encode($loginRes);
+	// echo $result;
 } else {
-	$result=json_encode('aaa');
+	// $result=json_encode('aaa');
+	// echo $result;
 }
 ?>
