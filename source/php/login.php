@@ -1,12 +1,11 @@
 <?php
+// if (!isset($_SESSION)) session_start();
+session_start();
 include 'functions.php';
 $type = $_POST['type'];
-$result=json_encode($type);
-	echo $result;
 if ($type == 'login'){
 	$login = $_POST['name'];
 	$pass =  $_POST['pass'];
-
 	$pdo = setConnect();
 	$sql = $pdo->prepare("SELECT * FROM users WHERE login=:login");
 	$sql->bindValue(':login',$login);
@@ -21,17 +20,18 @@ if ($type == 'login'){
 	$res = $sql->fetch();
 	if ($res) {
 		if (md5($pass) === $res['password']){
-			session_start();
+			
 			$_SESSION['user'] = $login;
-			$loginRes = true;
+			$loginRes = session_id();
 		} else{
 			$loginRes = false;
 		}
 	}
-	// $result=json_encode($loginRes);
-	// echo $result;
-} else {
-	// $result=json_encode('aaa');
-	// echo $result;
+	$result=json_encode($loginRes);
+	echo $result;
+} elseif($type == 'session') {
+	$res1 = session_id();
+	$result=json_encode($res1);
+	echo $result;
 }
 ?>

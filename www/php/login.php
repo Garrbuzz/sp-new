@@ -1,5 +1,6 @@
 <?php
-if (isset($_REQUEST[session_name()])) session_start();
+// if (!isset($_SESSION)) session_start();
+session_start();
 include 'functions.php';
 $type = $_POST['type'];
 if ($type == 'login'){
@@ -21,7 +22,7 @@ if ($type == 'login'){
 		if (md5($pass) === $res['password']){
 			
 			$_SESSION['user'] = $login;
-			$loginRes = true;
+			$loginRes = session_id();
 		} else{
 			$loginRes = false;
 		}
@@ -29,7 +30,7 @@ if ($type == 'login'){
 	$result=json_encode($loginRes);
 	echo $result;
 } elseif($type == 'session') {
-	$res1 = isset($_SESSION);
+	$res1 = session_id();
 	$result=json_encode($res1);
 	echo $result;
 }
