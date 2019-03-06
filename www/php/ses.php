@@ -1,9 +1,14 @@
 <?php 
+session_start();
 include 'functions.php';
-	$res = 'eee';
-	if (issset($_SESSION)){
-		$res =  json_encode('qqq');
-	} 
-		$res json_encode('2');
+echo $res;
+if (isset($_SESSION['user'])){
+		$r = true;
+	} else{
+		$r = false;
+	}
+	$res = json_encode($r);
+		echo $res;
+
 	
 ?>

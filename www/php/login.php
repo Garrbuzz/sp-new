@@ -22,7 +22,7 @@ if ($type == 'login'){
 		if (md5($pass) === $res['password']){
 			
 			$_SESSION['user'] = $login;
-			$loginRes = session_id();
+			$loginRes = true;
 		} else{
 			$loginRes = false;
 		}

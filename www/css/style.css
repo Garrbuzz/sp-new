@@ -371,6 +371,9 @@ template {
 * {
   outline: none; }
 
+.hide {
+  display: none; }
+
 .blue {
   background: #0095a6;
   height: 25em;
