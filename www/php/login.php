@@ -1,6 +1,8 @@
 <?php
-// if (!isset($_SESSION)) session_start();
 session_start();
+// echo $_SESSION['user'];
+// if (!isset($_SESSION)) session_start();
+// session_start();
 include 'functions.php';
 $type = $_POST['type'];
 if ($type == 'login'){
@@ -33,5 +35,11 @@ if ($type == 'login'){
 	$res1 = session_id();
 	$result=json_encode($res1);
 	echo $result;
+} else{
+	$q ='logout';
+	$_SESSION = array();
+	$w = json_encode($q);
+	echo $w;	
+	
 }
 ?>
