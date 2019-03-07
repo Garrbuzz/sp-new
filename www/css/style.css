@@ -409,6 +409,53 @@ template {
     font-size: 2.3em;
     line-height: 1.5em; }
 
+.cabinet-login {
+  position: absolute;
+  z-index: 3;
+  top: 1.5em;
+  left: 1.5em; }
+  .cabinet-login button {
+    border-radius: 1.7em;
+    color: #eee;
+    border: 1px solid #eaeaea;
+    background: rgba(220, 220, 230, 0.5);
+    padding: 0.25em 1em; }
+  .cabinet-login p {
+    margin: .4em; }
+  .cabinet-login a {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color 0.2s linear, background 0.2s linear;
+    transition: color 0.2s linear, background 0.2s linear; }
+  .cabinet-login button:hover {
+    color: #fd9017;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.75); }
+
+.cabinet-logout {
+  position: absolute;
+  z-index: 3;
+  top: 0.5em;
+  right: 1.5em; }
+  .cabinet-logout button {
+    border-radius: 1.7em;
+    color: #447;
+    border: 1px solid #eaeaea;
+    background: rgba(220, 220, 230, 0.5);
+    padding: 0.1em 1em;
+    font-size: 0.8em; }
+  .cabinet-logout p {
+    margin: .4em; }
+  .cabinet-logout a {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color 0.2s linear, background 0.2s linear;
+    transition: color 0.2s linear, background 0.2s linear; }
+  .cabinet-logout button:hover {
+    color: #fd9017;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.75); }
+
 .stress-title {
   grid-column: 4/10; }
   .stress-title h2 {
@@ -433,30 +480,6 @@ template {
 
 .inwork {
   height: 30em; }
-
-.cabinet-btn {
-  position: absolute;
-  z-index: 3;
-  top: 1.5em;
-  left: 1.5em;
-  padding: 0 1em;
-  border-radius: 1.7em;
-  color: #eee;
-  border: 1px solid #eaeaea;
-  background: rgba(220, 220, 230, 0.5); }
-  .cabinet-btn p {
-    margin: .4em; }
-  .cabinet-btn a {
-    text-decoration: none;
-    color: white;
-    -webkit-transition: color 0.2s linear, background 0.2s linear;
-    transition: color 0.2s linear, background 0.2s linear; }
-  .cabinet-btn a:hover {
-    color: #fd9017; }
-
-.cabinet-btn:hover {
-  background: rgba(255, 255, 255, 0.75);
-  cursor: pointer; }
 
 .login {
   margin: 1em 0;
