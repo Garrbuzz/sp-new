@@ -35,7 +35,12 @@ if ($type == 'login'){
 	$res1 = session_id();
 	$result=json_encode($res1);
 	echo $result;
-} else{
+} elseif ($type == 'isSession'){
+	$res1=$_SESSION['user'];
+	$result=json_encode($res1);
+	echo $result;
+}
+else{
 	$q ='logout';
 	$_SESSION = array();
 	$w = json_encode($q);
