@@ -8,7 +8,7 @@ $type = $_POST['type'];
 if ($type == 'login'){
 	$login = $_POST['name'];
 	$pass =  $_POST['pass'];
-	$pdo = setConnect();
+	$pdo = setConnect('sptraining', 'GXDj2gx1bNw2Sr27');
 	$sql = $pdo->prepare("SELECT * FROM users WHERE login=:login");
 	$sql->bindValue(':login',$login);
 	$sql->execute();

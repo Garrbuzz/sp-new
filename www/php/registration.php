@@ -1,10 +1,12 @@
 <?php
-// if (!isset($_SESSION)) session_start();
-session_start();
+include 'functions.php';
 include 'functions.php';
 $type = $_POST['type'];
-$pdo = setConnect('sptraining','GXDj2gx1bNw2Sr27');
-$login = $_SESSION['user'];
+
+$login = 'registrator';
+$pass = 'MBRXzWJGffVXsERK';
+$pdo = setConnect();
+
 $sql = $pdo->prepare("SELECT * FROM users WHERE login=:login");
 $sql->bindValue(':login',$login);
 	$sql->execute();
@@ -17,7 +19,5 @@ $sql->bindValue(':login',$login);
 	}
 	$res = $sql->fetch();
 echo json_encode($res);
-
-	
 
 ?>
