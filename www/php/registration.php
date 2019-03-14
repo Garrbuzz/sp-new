@@ -4,9 +4,9 @@ $data = [];
 $userFieldsjson = @file_get_contents('users.json');
 $userfields = json_decode($userFieldsjson, true);
 foreach($userfields as $field => $val){
-	$data[$field] = $_POST[$val];
-    
+	$data[$field] = $_POST[$field];
 }
+$data['password'] = md5($data['password']);
 
 
 $login = 'registrator';
@@ -15,27 +15,27 @@ $pdo = setConnect($login, $pass);
 $fields = '';
 $values = '';
 $i = 1;
-foreach($userfields as $field => $val){
+foreach($data as $field => $val){
+	if($field === 'reg_date'){
+
+	}else 
 	if ($fields === ''){
 		$fields = $fields . $field;
 		$values = $values . '?';
-	} else if($field === 'reg_date'){
-
-	}else {
+	}  else {
 		$fields = $fields . ', ' . $field;
 		$values = $values . ', ' . '?';
 	}
 }	
-echo $values;
-$userfields['password'] = 'sdfsffghk';
-$userfields['bool1'] = 'true';
-$userfields['bool2'] = 'true';
-echo $userfields['bool2'];
+
+
+
+
 $sql = $pdo->prepare("INSERT INTO USERS ($fields) VALUES ($values)");
-foreach($userfields as $field => $val){
+foreach($data as $field => $val){
 	if ($field === 'reg_date'){
 	} else {
-		$sql->bindParam($i, $userfields[$field]);
+		$sql->bindParam($i, $data[$field]);
 		$i=$i+1;
 	}
 }
@@ -45,9 +45,9 @@ $sql->execute();
 
 	if($pdo->errorCode() != 0000){
 	 
-		// echo "SQL ошибка: ";
+		echo "SQL ошибка: ";
 	}
-// }	
+	
 	$res = 'qqqqq';
 echo json_encode($res);
 

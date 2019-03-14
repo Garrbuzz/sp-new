@@ -4,16 +4,39 @@ include 'functions.php';
 $login = 'registrator';
 $pass = 'MBRXzWJGffVXsERK';
 $pdo = setConnect($login, $pass);
-$field1 = 'login, password';
-$field2 = 'gtghyg';
+$test = [];
+$test['login'] = 'John';
+$test['password'] = 'qqq';
+$test['profession'] = 'ffffff';
+$test['bool1'] = true;
+$fields = '';
+$values = '';
+$i = 1;
+foreach($test as $field => $val){
+	if ($fields === ''){
+		$fields = $fields . $field;
+		$values = $values . '?';
+	} else if($field === 'reg_date'){
 
+	}else {
+		$fields = $fields . ', ' . $field;
+		$values = $values . ', ' . '?';
+	}
+}	
 	
+echo $fields . $values;
+$sql = $pdo->prepare("INSERT INTO USERS ($fields) VALUES ($values)");
 
-$sql = $pdo->prepare("INSERT INTO USERS ($field1) VALUES (?,?)");
-$sql->bindParam(1, $name);
-$sql->bindParam(2, $password);
-$name = 'fsda	';
-$password = 'eee';
+foreach($test as $field => $val){
+	if ($field === 'reg_date'){
+	} else {
+		$sql->bindParam($i, $test[$field]);
+		$i=$i+1;
+	}
+}
+
+
+
 $sql->execute();
 	
 	$error_array = $pdo->errorInfo();
