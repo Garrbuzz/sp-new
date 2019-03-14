@@ -1,13 +1,28 @@
 <?php
 include 'functions.php';
 
-$j = @file_get_contents('users.json');
-// $data = json_decode($j, true);
+$login = 'registrator';
+$pass = 'MBRXzWJGffVXsERK';
+$pdo = setConnect($login, $pass);
+$field1 = 'login, password';
+$field2 = 'gtghyg';
 
-// if( $j != false && !is_null($data)){
-//     foreach($data as $k => $e){
-//         echo '<p>'  . $k .' '. $e . '</p>';
-//     }
-// }
-echo $j;
+	
+
+$sql = $pdo->prepare("INSERT INTO USERS ($field1) VALUES (?,?)");
+$sql->bindParam(1, $name);
+$sql->bindParam(2, $password);
+$name = 'fsda	';
+$password = 'eee';
+$sql->execute();
+	
+	$error_array = $pdo->errorInfo();
+
+	if($pdo->errorCode() != 0000){
+	 
+		echo "SQL ошибка: ";
+	
+
+
+	}
 ?>
