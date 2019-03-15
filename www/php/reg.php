@@ -3,12 +3,13 @@ include 'functions.php';
 $data = [];
 $userFieldsjson = @file_get_contents('users.json');
 $userfields = json_decode($userFieldsjson, true);
-foreach($userfields as $field => $val){
-	$data[$field] = $_POST[$field];
-}
+// foreach($userfields as $field => $val){
+// 	$data[$field] = $_POST[$field];
+// }
+$data['password'] = '1';
 $data['password'] = md5($data['password']);
-$data['bool1'] = true;
-$data['bool2'] = true;
+$data['login'] = 'fffff';
+
 
 $login = 'registrator';
 $pass = 'MBRXzWJGffVXsERK';
@@ -18,7 +19,9 @@ $fields = '';
 $values = '';
 $i = 1;
 foreach($data as $field => $val){
+	if($field === 'reg_date'){
 
+	}else 
 	if ($fields === ''){
 		$fields = $fields . $field;
 		$values = $values . '?';
@@ -33,8 +36,11 @@ foreach($data as $field => $val){
 
 $sql = $pdo->prepare("INSERT INTO USERS ($fields) VALUES ($values)");
 foreach($data as $field => $val){
+	if ($field === 'reg_date'){
+	} else {
 		$sql->bindParam($i, $data[$field]);
 		$i=$i+1;
+	}
 }
 $sql->execute();
 	
@@ -45,7 +51,8 @@ $sql->execute();
 		echo "SQL ошибка: ";
 	}
 	
-	$res = true;
-
+	$res = 'qqqqq';
+$res = $values;
 echo json_encode($res);
+
 ?>
