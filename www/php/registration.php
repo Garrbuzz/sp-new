@@ -28,24 +28,31 @@ foreach($data as $field => $val){
 	}
 }	
 
+$sql = $pdo->prepare("SELECT * FROM users WHERE login=:login");
+	$sql->bindValue(':login', $data['login']);
+	$sql->execute();
+	$r = $sql->fetch();
+if ($r[bool1]){
+	$res = 'loginIsBusy';
+}	else{
 
 
 
-$sql = $pdo->prepare("INSERT INTO USERS ($fields) VALUES ($values)");
-foreach($data as $field => $val){
-		$sql->bindParam($i, $data[$field]);
-		$i=$i+1;
-}
-$sql->execute();
-	
-	$error_array = $pdo->errorInfo();
-
-	if($pdo->errorCode() != 0000){
-	 
-		echo "SQL ошибка: ";
+	$sql = $pdo->prepare("INSERT INTO USERS ($fields) VALUES ($values)");
+	foreach($data as $field => $val){
+			$sql->bindParam($i, $data[$field]);
+			$i=$i+1;
 	}
-	
-	$res = true;
+	$sql->execute();
+		
+		$error_array = $pdo->errorInfo();
 
+		if($pdo->errorCode() != 0000){
+		 
+			echo "SQL ошибка: ";
+		}
+		
+		$res = true;
+}
 echo json_encode($res);
 ?>
