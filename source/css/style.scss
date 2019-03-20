@@ -51,34 +51,34 @@ $colP1:#444;
 	}
 }
 .cabinet-login{
+	
 	position:absolute;
 	z-index: 3;
-	top:1.5em;
-	left:1.5em;
+	top:0.5em;
+	right:1.5em;
+	border-radius: 1.7em;
 	
+	border: 1px solid #eaeaea;
+	background: rgba(255,255,255,0.75);
 	
-	button{
-		border-radius: 1.7em;
-		color:#eee;
-		border: 1px solid #eaeaea;
-		background: rgba(220, 220, 230, 0.5);
-		padding:0.25em 1em;
-	}
-	p{
-		margin:.4em;
-	}
+	padding:0.1em 1em;
+	
+	transition:background 0.2s linear;
 	a{
+		font-family: $font;
+		font-size: 0.8em;
 		text-decoration: none;
-		color: white;
-		transition: color 0.2s linear, background 0.2s linear;
-
+		color: $colBlue;
+		transition: background 0.2s linear;
 	}
-	button:hover{
-		color:#fd9017;
+}
+.cabinet-login:hover{
+		background: rgba(220, 220, 230, 0.5);
 		cursor: pointer;
-		background: rgba(255,255,255,0.75);
-	};
-
+		
+		a{
+			color:#fd9017;
+		}
 }
 .cabinet-logout{
 	position:absolute;
@@ -131,6 +131,16 @@ $colP1:#444;
 	grid-column: 6/12;
 	p{
 		font-size: 1.2em;
+		color:$colP1;
+		margin: 0.75em 1em;
+		line-height: 1.6em;
+	}
+}
+.stress-text-center{
+	grid-column: 4/10;
+	font-family: $font;
+	p{
+		font-size: 1.4em;
 		color:$colP1;
 		margin: 0.75em 1em;
 		line-height: 1.6em;

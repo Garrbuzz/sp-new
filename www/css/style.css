@@ -412,25 +412,27 @@ template {
 .cabinet-login {
   position: absolute;
   z-index: 3;
-  top: 1.5em;
-  left: 1.5em; }
-  .cabinet-login button {
-    border-radius: 1.7em;
-    color: #eee;
-    border: 1px solid #eaeaea;
-    background: rgba(220, 220, 230, 0.5);
-    padding: 0.25em 1em; }
-  .cabinet-login p {
-    margin: .4em; }
+  top: 0.5em;
+  right: 1.5em;
+  border-radius: 1.7em;
+  border: 1px solid #eaeaea;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 0.1em 1em;
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear; }
   .cabinet-login a {
+    font-family: verdana;
+    font-size: 0.8em;
     text-decoration: none;
-    color: white;
-    -webkit-transition: color 0.2s linear, background 0.2s linear;
-    transition: color 0.2s linear, background 0.2s linear; }
-  .cabinet-login button:hover {
-    color: #fd9017;
-    cursor: pointer;
-    background: rgba(255, 255, 255, 0.75); }
+    color: #0095a6;
+    -webkit-transition: background 0.2s linear;
+    transition: background 0.2s linear; }
+
+.cabinet-login:hover {
+  background: rgba(220, 220, 230, 0.5);
+  cursor: pointer; }
+  .cabinet-login:hover a {
+    color: #fd9017; }
 
 .cabinet-logout {
   position: absolute;
@@ -474,6 +476,15 @@ template {
   grid-column: 6/12; }
   .stress-text-right p {
     font-size: 1.2em;
+    color: #444;
+    margin: 0.75em 1em;
+    line-height: 1.6em; }
+
+.stress-text-center {
+  grid-column: 4/10;
+  font-family: verdana; }
+  .stress-text-center p {
+    font-size: 1.4em;
     color: #444;
     margin: 0.75em 1em;
     line-height: 1.6em; }

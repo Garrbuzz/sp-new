@@ -8,9 +8,11 @@ $type = $_POST['type'];
 if ($type == 'login'){
 	$login = $_POST['name'];
 	$pass =  $_POST['pass'];
-	$pdo = setConnect();
+	// echo json_encode($login);
+
+	$pdo = setConnect('sptraining', 'GXDj2gx1bNw2Sr27');
 	$sql = $pdo->prepare("SELECT * FROM users WHERE login=:login");
-	$sql->bindValue(':login',$login);
+	$sql->bindValue(':login', $login);
 	$sql->execute();
 	$loginRes = false;
 	$error_array = $pdo->errorInfo();
@@ -29,6 +31,7 @@ if ($type == 'login'){
 			$loginRes = false;
 		}
 	}
+	
 	$result=json_encode($loginRes);
 	echo $result;
 } elseif($type == 'session') {

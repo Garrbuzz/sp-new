@@ -1,28 +1,51 @@
 <?php
 include 'functions.php';
-// $login = $_POST['name'];
-// $pass =  $_POST['pass'];
-$login = 'test';
-$pdo = setConnect();
-$sql = $pdo->prepare("SELECT * FROM users WHERE login=:login");
-$sql->bindValue(':login',$login);
+
+$login = 'registrator';
+$pass = 'MBRXzWJGffVXsERK';
+$pdo = setConnect($login, $pass);
+$test = [];
+$test['login'] = 'John';
+$test['password'] = 'qqq';
+$test['profession'] = 'ffffff';
+$test['bool1'] = true;
+$fields = '';
+$values = '';
+$i = 1;
+foreach($test as $field => $val){
+	if ($fields === ''){
+		$fields = $fields . $field;
+		$values = $values . '?';
+	} else if($field === 'reg_date'){
+
+	}else {
+		$fields = $fields . ', ' . $field;
+		$values = $values . ', ' . '?';
+	}
+}	
+	
+echo $fields . $values;
+$sql = $pdo->prepare("INSERT INTO USERS ($fields) VALUES ($values)");
+
+foreach($test as $field => $val){
+	if ($field === 'reg_date'){
+	} else {
+		$sql->bindParam($i, $test[$field]);
+		$i=$i+1;
+	}
+}
+
+
+
 $sql->execute();
-$res = $sql->fetch(PDO::FETCH_ASSOC);
-
-
-// echo $row['id'];
-
-$error_array = $pdo->errorInfo();
+	
+	$error_array = $pdo->errorInfo();
 
 	if($pdo->errorCode() != 0000){
- 
-		echo "SQL ошибка: " . $error_array[2] . '<br />';
-	}	
+	 
+		echo "SQL ошибка: ";
+	
 
 
-echo $res['id'];
- 
-
-// $res=json_encode($sql['login']);
-// echo $res;
+	}
 ?>

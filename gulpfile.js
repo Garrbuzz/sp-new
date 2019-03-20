@@ -56,7 +56,7 @@ function jsP() {
 		.pipe(browserSync.stream());
 }
 function html() {
-	return gulp.src('./source/html/**/*.html')
+	return gulp.src('./source/html/**/*.*')
 		.pipe(gulp.dest('./www'))
 		.pipe(browserSync.stream());
 }
