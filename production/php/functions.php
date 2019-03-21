@@ -1,7 +1,7 @@
 <?php
 	function setConnect($user, $pass){
 		$host = 'localhost';
-	    $db   = 'sptraining';
+	    $db   = 'glukovne_sptraining';
 	    $charset = 'utf8';
 	    // $user = 'root';
 	    // $pass = '';
