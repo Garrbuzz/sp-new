@@ -1,0 +1,971 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stat",
+				"state"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"co",
+				"columns\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"bo",
+				"border-radius\tproperty"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"z-",
+				"z-index\tproperty"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"f",
+				"firstName"
+			],
+			[
+				"ti",
+				"time"
+			],
+			[
+				"ч",
+				"что"
+			],
+			[
+				"get",
+				"getLastDayOfMonth"
+			],
+			[
+				"D",
+				"date"
+			],
+			[
+				"d",
+				"dateAgo"
+			],
+			[
+				"so",
+				"sortString"
+			],
+			[
+				"st",
+				"stArr"
+			],
+			[
+				"s",
+				"stArr"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"a",
+				"arrAge"
+			],
+			[
+				"t",
+				"tmpArr"
+			],
+			[
+				"ar",
+				"arrSorted"
+			],
+			[
+				"ne",
+				"newArr"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"gr",
+				"grid-column-end\tproperty"
+			],
+			[
+				"grid-ro",
+				"grid-row-start\tproperty"
+			],
+			[
+				"str",
+				"strike-1-1-paused"
+			],
+			[
+				"animation-d",
+				"animation-delay"
+			],
+			[
+				"i",
+				"infinite"
+			],
+			[
+				"animation-it",
+				"animation-iteration-count"
+			],
+			[
+				"animation-du",
+				"animation-duration"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin-bott",
+				"margin-bottom"
+			],
+			[
+				"fl",
+				"flex\tproperty"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"bacground",
+				"background-image\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"e",
+				"ease-in-out"
+			],
+			[
+				"gre",
+				"grey"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"al",
+				"align-self"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"red",
+				"readyState"
+			],
+			[
+				"pr",
+				"print_r"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"B",
+				"background"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"se",
+				"session_start"
+			],
+			[
+				"PRINT",
+				"print_r"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"on",
+				"onClick"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"shad",
+				"box-shadow"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"my",
+				"mysqli"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"br",
+				"brOfCart"
+			],
+			[
+				"ch",
+				"choiceOfCartridge"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"db",
+				"db_password"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"Azbuka",
+				"Azbuka06.ttf"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"Background-c",
+				"background-color"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"text-in",
+				"text-indent"
+			],
+			[
+				"lette",
+				"letter-spacing"
+			],
+			[
+				"col-md",
+				"col-md-2"
+			],
+			[
+				"md-",
+				"col-md-1"
+			],
+			[
+				"end",
+				"endfor"
+			],
+			[
+				"fore",
+				"foreach\tforeach …"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/OpServ/OSPanel/domains/spcabinet/src/main.js",
+			"settings":
+			{
+				"buffer_size": 408,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/OpServ/OSPanel/domains/spcabinet/src/App.vue",
+			"settings":
+			{
+				"buffer_size": 1535,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/OpServ/OSPanel/domains/spcabinet/src/components/tests.vue",
+			"settings":
+			{
+				"buffer_size": 263,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/OpServ/OSPanel/domains/spcabinet/webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 2545,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/OpServ/OSPanel/domains/spcabinet/src/components/cabinet.vue",
+			"settings":
+			{
+				"buffer_size": 3628,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/OpServ/OSPanel/domains/spcabinet/src/components/login.vue",
+			"settings":
+			{
+				"buffer_size": 3168,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "livereload",
+		"selected_items":
+		[
+			[
+				"livereload",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/OpServ/OSPanel/domains/spcabinet/src/components/registration.vue",
+		"/E/OpServ/OSPanel/domains/sptraining/production/php/users_fields.php",
+		"/E/OpServ/OSPanel/domains/sptraining/production/php/ses.php",
+		"/E/OpServ/OSPanel/domains/sptraining/production/php/registration.php",
+		"/E/OpServ/OSPanel/domains/sptraining/production/php/logout.php",
+		"/E/OpServ/OSPanel/domains/sptraining/production/php/login.php",
+		"/E/OpServ/OSPanel/domains/sptraining/production/php/functions.php",
+		"/E/OpServ/OSPanel/domains/sptraining/production/php/cabinet.php",
+		"/E/OpServ/OSPanel/domains/sptraining/production/vue/components/registration.vue",
+		"/E/OpServ/OSPanel/domains/sptraining/production/vue/components/login.vue",
+		"/E/OpServ/OSPanel/domains/sptraining/production/vue/main.js",
+		"/E/OpServ/OSPanel/domains/sptraining/production/vue/components/cabinet.vue",
+		"/E/OpServ/OSPanel/domains/sptraining/production/vue/App.vue",
+		"/E/OpServ/OSPanel/domains/sptraining/www/php/registration.php",
+		"/E/OpServ/OSPanel/domains/sptraining/www/php/reg.php",
+		"/E/OpServ/OSPanel/domains/sptraining/www/php/logout.php",
+		"/E/OpServ/OSPanel/domains/sptraining/www/php/functions.php",
+		"/E/OpServ/OSPanel/domains/sptraining/www/php/cabinet.php",
+		"/E/OpServ/OSPanel/domains/sptraining/www/php/login.php",
+		"/E/OpServ/OSPanel/domains/sptraining/www/php/ses.php",
+		"/E/OpServ/OSPanel/domains/sptraining/www/php/users_fields.php",
+		"/E/OpServ/OSPanel/domains/spcabinet/src/App.vue",
+		"/E/OpServ/OSPanel/domains/spcabinet/src/components/login.vue",
+		"/E/OpServ/OSPanel/domains/spcabinet/src/components/cabinet.vue",
+		"/E/OpServ/OSPanel/domains/sptraining/www/php/users.json",
+		"/E/OpServ/OSPanel/domains/spcabinet/src/main.js",
+		"/E/OpServ/OSPanel/domains/sptraining/www/php/test.php",
+		"/E/OpServ/OSPanel/domains/sptraining/source/php/login.php",
+		"/E/OpServ/OSPanel/domains/sptraining/source/php/functions.php",
+		"/E/OpServ/OSPanel/domains/sptraining/source/php/cabinet.php",
+		"/E/OpServ/OSPanel/domains/sptraining/source/js/script.js",
+		"/E/OpServ/OSPanel/domains/sptraining/source/js/login.js",
+		"/E/OpServ/OSPanel/domains/sptraining/source/html/login.html",
+		"/E/OpServ/OSPanel/domains/sptraining/source/html/cabinet.html",
+		"/E/OpServ/OSPanel/domains/sptraining/source/js/cabinet.js",
+		"/E/OpServ/OSPanel/domains/sptraining/source/php/ses.php",
+		"/E/OpServ/OSPanel/domains/spcabinet/webpack.config.js",
+		"/E/OpServ/OSPanel/domains/sptraining/source/html/index.html",
+		"/E/OpServ/OSPanel/domains/cartridges/js/src/components/cartridges.vue",
+		"/E/OpServ/OSPanel/domains/cartridges/js/src/components/accounting.vue",
+		"/E/OpServ/OSPanel/domains/cartridges/js/src/components/changestatussarridge.vue",
+		"/E/OpServ/OSPanel/domains/cartridges/js/src/components/changeStatusCarridge.vue",
+		"/E/OpServ/OSPanel/domains/sptraining/source/html/supervision.html",
+		"/E/OpServ/OSPanel/domains/sptraining/source/html/prof-burnout.html",
+		"/E/OpServ/OSPanel/domains/sptraining/source/html/learning.html",
+		"/E/OpServ/OSPanel/domains/sptraining/source/html/couching.html",
+		"/E/OpServ/OSPanel/domains/cartridges/js/src/components/login.vue",
+		"/E/OpServ/OSPanel/domains/cartridges/app/routes.php",
+		"/E/OpServ/OSPanel/domains/sptraining/source/css/layout.scss",
+		"/E/OpServ/OSPanel/domains/sptraining/source/css/style.scss",
+		"/E/OpServ/backup/sptraining/sptraining-27-02-2019/source/html/cabinet.html",
+		"/E/OpServ/OSPanel/domains/spcabinet/index.html",
+		"/G/Мій диск/work_gdrive_oleg/web/sptraining/src/components/login.vue",
+		"/E/OpServ/OSPanel/domains/sptraining/source/css/nav.scss",
+		"/E/OpServ/OSPanel/domains/sptraining/source/css/header.scss",
+		"/E/OpServ/OSPanel/domains/sptraining/gulpfile.js",
+		"/E/OpServ/OSPanel/domains/acc/accaunting/index.html",
+		"/E/OpServ/OSPanel/domains/test/index.html",
+		"/E/OpServ/OSPanel/domains/acc/accaunting/js/script.js",
+		"/E/OpServ/OSPanel/domains/acc/accaunting/php/test.php",
+		"/E/OpServ/OSPanel/domains/test/js/script.js",
+		"/E/OpServ/OSPanel/domains/test/css/style.css",
+		"/E/OpServ/OSPanel/domains/test/js/script1.js",
+		"/E/OpServ/OSPanel/domains/imla/html/about.html",
+		"/E/OpServ/OSPanel/domains/imla/index_old.html",
+		"/E/OpServ/OSPanel/domains/imla/js/script.js",
+		"/E/OpServ/OSPanel/domains/imla/css/style.css",
+		"/E/OpServ/OSPanel/domains/imla/index.html",
+		"/E/OpServ/OSPanel/domains/imla/css/style_old.css",
+		"/E/test/style.css",
+		"/E/test/index.html",
+		"/E/openserver/OpenServer/domains/stroom/css/style.css",
+		"/E/openserver/OpenServer/domains/cartridges/index.html",
+		"/E/openserver/OpenServer/domains/cartridges/php/choiceBrandOfCartridges.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/session.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/login.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/chkauth.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/functions.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/test.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/choiceBySerial.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/choiceCartridge.php",
+		"/E/openserver/OpenServer/domains/cartridges/css/style.css",
+		"/E/openserver/OpenServer/domains/cartridges/php/choiceofcartridge.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/currentstatusname.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/readstatuses.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/currentstatus.php",
+		"/E/openserver/OpenServer/domains/cartridges/html/accounting.html",
+		"/E/openserver/OpenServer/domains/cartridges/html/cartridges.html",
+		"/E/openserver/OpenServer/domains/cartridges/php/writenewstatus.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/cartridges.php",
+		"/E/openserver/OpenServer/domains/cartridges/php/newcartridge.php",
+		"/E/openserver/OpenServer/domains/gn/index.html",
+		"/E/openserver/OpenServer/domains/cartridges/js/script.js",
+		"/D/VP/Проекты/WEB/html/demo_1556/demo/index.html",
+		"/E/openserver/OpenServer/domains/novikoff/php/wr.php",
+		"/E/openserver/OpenServer/domains/novikoff/css/style.css",
+		"/E/openserver/OpenServer/domains/novikoff/index.html",
+		"/E/openserver/OpenServer/domains/voloh/css/style.css",
+		"/E/openserver/OpenServer/domains/voloh/index.html",
+		"/E/openserver/OpenServer/domains/voloh/html/contacts.html",
+		"/E/openserver/OpenServer/domains/voloh/html/naturopatiya.html",
+		"/E/openserver/OpenServer/domains/voloh/html/catalog.html",
+		"/E/openserver/OpenServer/domains/voloh/css/bootstrap.css",
+		"/D/VP/Проекты/WEB/Voloh/images/19724204_2118372691723619_2039646515_o.jpg",
+		"/D/VP/Проекты/WEB/Partex/templates/B2B/templateBootstrap/222222222.html",
+		"/D/VP/Проекты/WEB/edu/index.php",
+		"/D/VP/Проекты/WEB/Partex/templates/B2B/templateBootstrap/css/style.css",
+		"/D/VP/Проекты/WEB/Partex/templates/B2B/templateBootstrap/index.html",
+		"/D/VP/Проекты/WEB/Seva_sled/new/work/index.html",
+		"/D/VP/Проекты/WEB/Seva_sled/new/work/css/style.css",
+		"/D/VP/Проекты/WEB/Partex/templates/B2B/backup/templates/b2b_vendor",
+		"/D/VP/Проекты/WEB/edu/php/b2b_price_uah.php",
+		"/D/VP/Проекты/WEB/html/templates/work/work/index.html",
+		"/D/VP/Проекты/WEB/edu/cardProd.php",
+		"/D/VP/Проекты/WEB/edu/php/changeProfile.php",
+		"/D/VP/Проекты/WEB/edu/php/b2b_order_from_list.php",
+		"/D/VP/Проекты/WEB/edu/php/b2b_orderlist.php",
+		"/D/VP/Проекты/WEB/Partex/HTML_New/b2b_style.css",
+		"/D/VP/Проекты/WEB/edu/foreach1.php",
+		"/D/VP/Проекты/WEB/edu/primes3first_200_400.php",
+		"/D/VP/Проекты/WEB/html/index.html",
+		"/D/VP/Проекты/WEB/html/Ed7YdFa7"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".php",
+			"tru",
+			"bool",
+			"if (isset($_REQUEST[session_name()])) session_start();",
+			"mounted",
+			"sd",
+			"alert",
+			"console.log",
+			"z-index:",
+			"default",
+			"login"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/OpServ/OSPanel/domains/spcabinet/src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/OpServ/OSPanel/domains/spcabinet/src/App.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/OpServ/OSPanel/domains/spcabinet/src/components/tests.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/OpServ/OSPanel/domains/spcabinet/webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1954,
+								1954
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1764.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/OpServ/OSPanel/domains/spcabinet/src/components/cabinet.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2278,
+								2278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2436.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/OpServ/OSPanel/domains/spcabinet/src/components/login.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1486,
+								1486
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2520.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sp-production.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
