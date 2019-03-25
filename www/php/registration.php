@@ -33,6 +33,7 @@ $sql = $pdo->prepare("SELECT * FROM users WHERE login=:login");
 	$sql->bindValue(':login', $data['login']);
 	$sql->execute();
 	$r = $sql->fetch();
+
 if ($r['bool1']){
 	$res = 'loginIsBusy';
 }	
@@ -53,5 +54,6 @@ else{
 		
 		$res = true;
 }
+	
 echo json_encode($res);
 ?>
