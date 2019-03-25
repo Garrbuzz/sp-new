@@ -11,7 +11,7 @@ $data['password'] = md5($data['password']);
 $data['bool1'] = true;
 $data['bool2'] = true;
 
-$login = 'registrator';
+$login = 'glukovne_registrator';
 $pass = 'MBRXzWJGffVXsERK';
 
 $pdo = setConnect($login, $pass);

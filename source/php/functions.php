@@ -1,6 +1,6 @@
 <?php
 	function setConnect($user, $pass){
-		$host = '127.0.0.1';
+		$host = 'localhost';
 	    $db   = 'sptraining';
 	    $charset = 'utf8';
 	    // $user = 'root';
