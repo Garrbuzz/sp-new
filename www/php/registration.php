@@ -14,6 +14,7 @@ $data['bool2'] = true;
 $login = 'glukovne_registrator';
 $pass = 'MBRXzWJGffVXsERK';
 
+
 $pdo = setConnect($login, $pass);
 $fields = '';
 $values = '';
