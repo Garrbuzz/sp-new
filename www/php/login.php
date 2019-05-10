@@ -10,7 +10,7 @@ if ($type == 'login'){
 	$pass =  $_POST['pass'];
 	// echo json_encode($login);
 
-	$pdo = setConnect('glukovne_sptraining', 'GXDj2gx1bNw2Sr27');
+	$pdo = setConnect('sptraining', 'GXDj2gx1bNw2Sr27');
 	$sql = $pdo->prepare("SELECT * FROM users WHERE login=:login");
 	$sql->bindValue(':login', $login);
 	$sql->execute();

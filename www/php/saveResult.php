@@ -7,7 +7,7 @@
 	$testName = $_POST['testName'];
 	$res = $_POST['testRes'];
 	$user_id = $_SESSION['user_id'];
-	$login = 'glukovne_registrator';
+	$login = 'registrator';
 	$pass = 'MBRXzWJGffVXsERK';
 	$pdo = setConnect($login, $pass);
 	
