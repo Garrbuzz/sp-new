@@ -12,8 +12,8 @@
 	$pdo = setConnect($login, $pass);
 	
 
-	// $pdo = setConnect('glukovne_sptraining','GXDj2gx1bNw2Sr27');
-	// $login = $_SESSION['user'];
+	$pdo = setConnect('glukovne_sptraining','GXDj2gx1bNw2Sr27');
+	$login = $_SESSION['user'];
 
 	$sql = $pdo->prepare("INSERT INTO test_results (test_id, user_id, result) VALUES (:name, :user_id, :value)");
 	$sql->bindParam(':name', $testName);
@@ -21,5 +21,5 @@
 	$sql->bindParam(':value', $res);
 	$sql->execute();
 
-	echo json_encode($login);
+	echo json_encode('ok');
 ?>
