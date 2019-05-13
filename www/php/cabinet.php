@@ -7,6 +7,7 @@ $login = 'registrator';
 $pass = 'MBRXzWJGffVXsERK';
 $pdo = setConnect($login, $pass);
 $login = $_SESSION['user'];
+$user_id = $_SESSION['user_id'];
 
 $sql = $pdo->prepare("SELECT * FROM users WHERE login=:login");
 $sql->bindValue(':login',$login);
