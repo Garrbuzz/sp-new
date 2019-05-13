@@ -13,13 +13,13 @@
 	
 
 	// $pdo = setConnect('glukovne_sptraining','GXDj2gx1bNw2Sr27');
-	$login = $_SESSION['user'];
+	// $login = $_SESSION['user'];
 
-	$sql = $pdo->prepare("INSERT INTO TEST_RESULTS (test_id, user_id, result) VALUES (:name, :user_id, :value)");
+	$sql = $pdo->prepare("INSERT INTO test_results (test_id, user_id, result) VALUES (:name, :user_id, :value)");
 	$sql->bindParam(':name', $testName);
 	$sql->bindParam(':user_id', $user_id);
 	$sql->bindParam(':value', $res);
 	$sql->execute();
 
-	echo json_encode('ok');
+	echo json_encode($login);
 ?>

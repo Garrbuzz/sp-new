@@ -8,7 +8,4 @@ if (isset($_SESSION['user'])){
 	}
 	$res = json_encode($r);
 		echo $res;
-
-
-	
 ?>

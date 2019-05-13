@@ -11,7 +11,7 @@ $data['password'] = md5($data['password']);
 $data['bool1'] = true;
 $data['bool2'] = true;
 
-$login = 'glukovne_registrator';
+$login = 'registrator';
 $pass = 'MBRXzWJGffVXsERK';
 
 
@@ -38,7 +38,7 @@ if ($r['bool1']){
 	$res = 'loginIsBusy';
 }	
 else{
-	$sql = $pdo->prepare("INSERT INTO USERS ($fields) VALUES ($values)");
+	$sql = $pdo->prepare("INSERT INTO users ($fields) VALUES ($values)");
 	foreach($data as $field => $val){
 			$sql->bindParam($i, $data[$field]);
 			$i=$i+1;
