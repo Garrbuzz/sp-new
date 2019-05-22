@@ -26,6 +26,7 @@ if ($type == 'login'){
 		if (md5($pass) === $res['password']){
 			
 			$_SESSION['user'] = $login;
+			$_SESSION['user_id'] = $res['id'];
 			$loginRes = true;
 		} else{
 			$loginRes = false;
