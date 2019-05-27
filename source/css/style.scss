@@ -15,6 +15,9 @@ $colP1:#444;
 .hide{
 	display:none;	
 }
+.logo{
+	grid-area: lg;
+}
 .blue{
 	background: $colBlue;
 	height: 25em;
@@ -43,7 +46,7 @@ $colP1:#444;
 	z-index:2;
 	grid-column:1/13;
 	h1{
-		margin: 2.5em 2em;
+		margin: 0 2em;
 		text-align: center;
 		color:white;
 		font-weight: 100;
@@ -249,3 +252,12 @@ $colP1:#444;
 	}
 }
 // end cabinet
+.content-title{
+	grid-column: 4/10;
+	display:flex;
+	justify-content: center;
+	h1{
+		color:#fff;
+		font-weight: 100;
+	}
+}

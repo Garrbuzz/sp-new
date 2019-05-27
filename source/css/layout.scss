@@ -1,6 +1,10 @@
-.grid-12{
+.grid-col-12{
 	display:grid;
 	grid-template-columns:  repeat(12, 1fr);
+}
+.grid-rows-2{
+	display:grid;
+	grid-template-rows: 7em 2em;
 }
 .block-grid-3-23{
 	grid-column: 3/23;
@@ -20,5 +24,11 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	align-items: center;
+}
+header{
+	grid-template-areas:
+	"lg lg lg lg nw nw nw nw nw nw nw nw"
+	"lg lg lg lg bk bk bk bk bk bk bk bk";
+	
 }
 
