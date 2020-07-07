@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {
     "gulp-sourcemaps": "^2.6.4",
-    "npm": "^6.6.0"
+    "npm": "^6.14.6"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
